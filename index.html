@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Inmart</title>
+  </head>
+  <body>
+    <!-- Intro Section -->
+    
+  
+   
+    <header class="header">
+      <div class="header-top">
+        <div class="lang-close">
+          <div class="lang">RU</div>
+          <div class="nav-close">
+            <img src="img/icons/closenav.svg" alt="" />
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="do'konlarimiz/shops.html"> Do’konlarimiz </a></li>
+            <li><a href="biz haqimizda/about.html"> Biz haqimizda </a></li>
+            <li><a href="connecting/connect.html"> Bog’lanish </a></li>
+          </ul>
+        </nav>
+        <div class="right">
+          <button class="register-btn">Ro'yxatdan o'tish</button>
+          <div class="call-center">
+            <span class="title">Call center:</span>
+            <a href="tel:+998946562222">
+              <i class="fa fa-phone"></i> <span>+998 94 656-22-22</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="subheader">
+        <div class="left-side">
+          <div class="logo">
+            <a href="index.html"><img src="img/icons/logo.svg"/></a>
+          </div>
+          <div class="searchbar">
+            <label for="searchInput">
+              <img src="img/icons/search.png" />
+            </label>
+            <input
+              id="searchInput"
+              type="text"
+              placeholder="Mahsulotlarni qidirish"
+            />
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="change-lang">
+            <button class="lang-btn btn-1">RU</button>
+            <button class="lang-btn btn-2">UZ</button>
+          </div>
+          <div class="cart">
+            <a href="korzinka/korzinka.html"><img src="./img/icons/cart.svg" /></a>
+            <div class="product-count">
+              <span>0</span>
+            </div>
+          </div>
+          <button class="register-btn">Ro’yxatdan o’tish</button>
+          <img class="nav-btn" src="./img/icons/nav.svg" />
+        </div>
+      </div>
+    </header>
+    <section class="intro">
+      <div class="container">
+        
+        <div class="m-searchbar">
+          <label for="searchInput">
+            <img src="./img/icons/search.png" />
+          </label>
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Mahsulotlarni qidirish"
+          />
+        </div>
+        <div class="intro-banner">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="info-side">
+                  <h1 class="title">
+                    BIZ SIZGA HAR QANDAY MAHSULOTNI YETKAZAMIZ
+                  </h1>
+                  <p class="text">
+                    Turli xil oziq-ovqat mahsulotlarini
+                    <span>“Inmart”</span> supermarketi orqali tez va sifatli
+                    buyurtma qilishingiz mumkin. Biz bilan birga bo’ling.
+                  </p>
+                  <button class="order-btn">Buyurtma berish</button>
+                </div>
+                <div class="img-side">
+                  <img src="./img/main/slide/1.png" alt="img" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="info-side">
+                  <h1 class="title">
+                    BIZ TELEGRAMDA!!!!
+                  </h1>
+                  <p class="text">
+                    Telegram-kanal — aksiyalardan xabardor  <br> bo’ling <br>
+                    Bizda har hafta aksiyalar shoshiling!!!! <br><br>
+                  </p>
+                  <button class="order-btn">
+                    <a href="https://t.me/inmart_supermarket" class="channel" style="color: rgb(67, 211, 0);">Kanalga o'tish &#8594</a>
+                  </button>
+                </div>
+                <div class="img-side">
+                  <img src="img/icons/tg.jpg" alt="img" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="info-side">
+                  <h1 class="title">
+                    BIZNI INSTAGRAMDA HAM KUZATING
+                  </h1>
+                  <p class="text">
+                    Endilikda <span>“Inmart”</span>da bo'layotgan <br> aksiyalar,yangiliklar va chegirmalar  haqida instagram sahifamizda ham kuzatishingiz mumkin!!
+                  </p>
+                  <button class="order-btn">
+                    <a href="https://www.instagram.com/inmart_supermarket/" class="channel" style="color: red;">Instagramga o'tish&#8594</a>
+                  </button>
+                </div>
+                <div class="img-side">
+                  <img src="img/icons/ins.jpg" alt="img" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <nav class="product-nav">
+          <ul class="nav-list">
+            <li><a  class="filter_btn" href="#" data-filter-type="_all"> Barchasi </a></li>
+            <li><a class="filter_btn" href="#" data-filter-type="_fruits"> Mevalar va sabzavotlar </a></li>
+            <li><a class="filter_btn" href="#" data-filter-type="_milky"> Sut va sut mahsulotlari </a></li>
+            <li><a class="filter_btn" href="#" data-filter-type="_drinks"> Suv va ichimliklar </a></li>
+            <li><a class="filter_btn" href="#" data-filter-type="_vegs"> Vegetable </a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- Intro Section End -->
+    <!-- Section 2 -->
+    <section class="section-2">
+      <div class="container">
+        <div class="section-top">
+          <h2 class="section-title">TOP MAHSULOTLAR</h2>
+          <div class="lr-btns">
+            <button class="arrow-btn left-btn" id="prev_btn">
+              <img src="./img/icons/leftarrow.svg" />
+            </button>
+            <button class="arrow-btn right-btn active" id="next_btn">
+              <img src="./img/icons/rightarrow.svg" />
+            </button>
+          </div>
+        </div>
+        <div class="section-banner">
+          <div class="row">
+            <!-- Item -->
+            <div class="banner-item padd-15 box_1" id="box" data-item-type="_drinks">
+              <div class="card">
+                <div class="card-img produc">
+                  <img src="./img/main/topProduct/1.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">15 000</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">dona</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Nescafe Special </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15 box_1" id="box" data-item-type="_fruits">
+              <div class="card">
+                <div class="card-img produc">
+                  <img src="./img/main/topProduct/2.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">24 000</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">kg</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Malayziya banani </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15 box_1" id="box" data-item-type="_vegs">
+              <div class="card">
+                <div class="card-img produc">
+                  <img src="./img/main/topProduct/3.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">32 000</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">kg</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Alanga guruch </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15 box_1" id="box" data-item-type="_vegs">
+              <div class="card">
+                <div class="card-img produc">
+                  <img src="./img/main/topProduct/4.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">25 990</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">kg</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Mosh </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15 box_1" id="box" data-item-type="">
+              <div class="card">
+                <div class="card-img produc">
+                  <img src="./img/main/topProduct/4.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">25 990</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">kg</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Mosh </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15 box_1" id="box" data-item-type="">
+              <div class="card">
+                <div class="card-img produc">
+                  <img src="./img/main/topProduct/4.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">25 990</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">kg</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Mosh </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15 box_1" id="box" data-item-type="">
+              <div class="card">
+                <div class="card-img produc">
+                  <img src="./img/main/topProduct/4.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">25 990</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">kg</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Mosh </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 2 End -->
+    <!-- Section 3 -->
+    <section class="section-3">
+      <div class="container">
+        <div class="section-top">
+          <h2 class="section-title">YANGILIKLAR</h2>
+          <div class="lr-btns">
+            <button class="arrow-btn left-btn" id="new_prev">
+              <img src="./img/icons/leftarrow.svg" />
+            </button>
+            <button class="arrow-btn right-btn active" id="new_next">
+              <img src="./img/icons/rightarrow.svg" />
+            </button>
+          </div>
+        </div>
+        <div class="section-banner">
+          <div class="row news">
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="box" id="new_box">
+                <div class="box-info">
+                  <h3 class="title">
+                    Dena soklaridan 50 dona xarid qiling va 10% chegirmaga ega
+                    bo’ling.
+                  </h3>
+                  <a class="more-btn" href="#">
+                    Batafsil
+                    <i class="fa fa-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="box-img">
+                  <img src="img/main/news/1.png" alt="img" />
+                </div>
+              </div>
+            </div>
+            <!-- Item End -->
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="box" id="new_box">
+                <div class="box-info">
+                  <h3 class="title">
+                    Qovun va tarvuz sayliga marhamat, barchasi arzon narxlarda.
+                  </h3>
+                  <a class="more-btn" href="#">
+                    Batafsil
+                    <i class="fa fa-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="box-img">
+                  <img src="img/main/news/2.png" alt="img" />
+                </div>
+              </div>
+            </div>
+            <div class="banner-item padd-15">
+              <div class="box" id="new_box">
+                <div class="box-info">
+                  <h3 class="title">
+                    Qovun va tarvuz sayliga marhamat, barchasi arzon narxlarda.
+                  </h3>
+                  <a class="more-btn" href="#">
+                    Batafsil
+                    <i class="fa fa-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="box-img">
+                  <img src="img/main/news/2.png" alt="img" />
+                </div>
+              </div>
+            </div>
+            <!-- Item End -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 3 End -->
+    <!-- Section 4 -->
+    <section class="section-4">
+      <div class="container">
+        <h2 class="section-title">AJOYIB CHEGIRMALAR</h2>
+        <div class="section-banner">
+          <div class="row sale">
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="card">
+                <div class="card-img">
+                  <img src="img/main/discounts/1.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">55 000</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">kg</span>
+                    </div>
+                    <div class="old-price">
+                      <span class="count">60 000 </span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">kg</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> “Shmuchki” shokolad </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="card">
+                <div class="card-img">
+                  <img src="img/main/discounts/2.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">8 000</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">dona</span>
+                    </div>
+                    <div class="old-price">
+                      <span class="count">8 500 </span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">dona</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Muzqaymoq </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="card">
+                <div class="card-img">
+                  <img src="img/main/discounts/3.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">2 000</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">bog'</span>
+                    </div>
+                    <div class="old-price">
+                      <span class="count">2 200 </span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">bog'</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Ko’katlar </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="card">
+                <div class="card-img">
+                  <img src="img/main/discounts/4.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">11 900</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">dona</span>
+                    </div>
+                    <div class="old-price">
+                      <span class="count">13 900 </span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">dona</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Viko sok </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 4 End -->
+
+    <!-- Section 5 -->
+    <section class="section-5">
+      <div class="container">
+        <h2 class="section-title">SIZ UCHUN MAXSUS</h2>
+        <div class="section-banner">
+          <div class="row foryou">
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="card">
+                <div class="card-img">
+                  <img src="img/main/forYou/1.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">6 500</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">dona</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Coca-cola </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="card">
+                <div class="card-img">
+                  <img src="img/main/forYou/2.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">13 000</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">dona</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> “Kit Kat” shokolad </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="card">
+                <div class="card-img">
+                  <img src="img/main/forYou/3.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">6 000</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">kg</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> Sarimsoq piyoz </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+            <!-- Item -->
+            <div class="banner-item padd-15">
+              <div class="card">
+                <div class="card-img">
+                  <img src="img/main/forYou/4.png" alt="img" />
+                </div>
+                <div class="card-info">
+                  <div class="price">
+                    <div class="current-price">
+                      <span class="count">5 900</span>
+                      <span class="money">so'm</span>
+                      /
+                      <span class="price-type">dona</span>
+                    </div>
+                  </div>
+                  <span class="product-name"> “Pepsi” ichimlik </span>
+                  <button class="add-cart__btn">Savatchaga qo’shish</button>
+                </div>
+              </div>
+            </div>
+            <!-- Item End-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 5 End -->
+
+    <!-- Section 6 End -->
+    <section class="section-6">
+      <div class="container">
+        <div class="section-banner">
+          <div class="banner-info">
+            <h2 class="banner-title">
+              MOBIL ILOVAMIZNI YUKLAB OLING VA TEZDA BUYURTMA QILING
+            </h2>
+            <p class="text">
+              <span>“Inmart”</span> supermarketining mobil ilovasida yanada
+              ko’proq imkoniyatlarga ega bo’lishingiz mumkin
+            </p>
+            <div class="app">
+              <img src="img/icons/qr.png" />
+              <div class="btns">
+                <button class="app-btn android-btn">
+                  <img src="./img/icons/android.svg" alt="" />
+                  <span class="title">
+                    <span>GET IT ON</span>
+                    <span>Google Play</span>
+                  </span>
+                </button>
+                <button class="app-btn ios-btn">
+                  <img src="img/icons/ios.svg" alt="" />
+                  <span class="title">
+                    <span>Download on the</span>
+                    <span>App Store</span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="img/main/smartphone.png" alt="img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 6 End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-banner">
+          <!-- Item -->
+          <div class="banner-item">
+            <img class="site-logo" src="img/icons/logo.svg" />
+            <ul class="social-networks">
+              <li>
+                <a href="#">
+                  <i class="fa fa-telegram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-facebook-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Item End -->
+          <!-- Item -->
+          <div class="banner-item">
+            <h3 class="title">Inmart</h3>
+            <ul class="item-list">
+              <li>
+                <a href="biz haqimizda/about.html"> Biz haqimizda </a>
+              </li>
+              <li>
+                <a href="index.html"> Mahsulotlar </a>
+              </li>
+              <li>
+                <a href="#"> Vakansiyalar </a>
+              </li>
+              <li>
+                <a href="#"> Hamkor bo’lish </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Item End -->
+          <!-- Item -->
+          <div class="banner-item">
+            <h3 class="title">Xaridorga yordam</h3>
+            <ul class="item-list">
+              <li>
+                <a href="biz haqimizda/about.html"> Biz qanday ishlaymiz </a>
+              </li>
+              <li>
+                <a href="#"> FAQ </a>
+              </li>
+              <li>
+                <a href="delivery/delivery.html"> To’lov tartibi </a>
+              </li>
+              <li>
+                <a href="delivery/delivery.html"> Yetkazib berish </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Item End -->
+          <!-- Item -->
+          <div class="banner-item">
+            <a class="phone-number" href="tel:+998998966666"
+              >+998 99 896-66-66</a
+            >
+            <p class="text">
+              Ushbu qo’ng’iroq markazi orqali siz o’zingizning qiziqtirgan
+              savollarga javob topishingiz mumkin.
+            </p>
+          </div>
+          <!-- Item End -->
+        </div>
+        <div class="footer-bottom">
+          <span class="subtext"> Barcha huquqlar himoyalangan </span>
+          <div class="right-side">
+            <span class="subtext">Ilovamizni yuklab oling</span>
+            <div class="btns">
+              <button class="app-btn android-btn">
+                <img src="./img/icons/android.svg" alt="" />
+                <span class="title">
+                  <span>GET IT ON</span>
+                  <span>Google Play</span>
+                </span>
+              </button>
+              <button class="app-btn ios-btn">
+                <img src="./img/icons/ios.svg" alt="" />
+                <span class="title">
+                  <span>Download on the</span>
+                  <span>App Store</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Product Modal Modal-1-->
+    <div class="modal-wrapper modal-1">
+      <div class="modal-box">
+        <div class="product-img">
+          <div class="main-img">
+            <img src="./img/main/modal/main.png" alt="img" />
+          </div>
+          <div class="other-imgs">
+            <div class="pr-other__img">
+              <img src="./img/main/modal/1.png" alt="img" />
+            </div>
+            <div class="pr-other__img">
+              <img src="./img/main/modal/2.png" alt="img" />
+            </div>
+            <div class="pr-other__img">
+              <img src="./img/main/modal/3.png" alt="img" />
+            </div>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="info-top">
+            <h2 class="product-title">VIKO SOK</h2>
+            <div class="del-info">
+              <div class="info">
+                <img src="./img/icons/time.svg" />
+                <span>15 daq</span>
+              </div>
+              <div class="info">
+                <img src="./img/icons/distance.svg" />
+                <span>1.2 km</span>
+              </div>
+            </div>
+          </div>
+          <p class="text">
+            Germaniya davlati bilan hamkorlikda tayyorlanadigan “Viko” sok
+            mahsulotlari siz uchun tayyor. Sok tarkibida O’zbekistonda
+            yetishtirilgan ajoyib mevalar o’rin olgan. Bizning supermarketimizda
+            ushbu mahsulotni arzon narxlarda sotib olishingiz mumkin
+          </p>
+          <div class="current-price">
+            <span class="count">11 900</span>
+            <span class="money">so'm</span>
+            /
+            <span class="price-type">kg</span>
+          </div>
+          <div class="old-price">
+            <span class="count">13 900</span>
+            <span class="money">so'm</span>
+            /
+            <span class="price-type">kg</span>
+          </div>
+          <div class="modal-btns">
+            <button class="buy-btn">Sotib olish</button>
+            <button class="cart-btn">Savatchaga qo’shish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product Modal End-->
+
+    <!-- Product Modal Modal-2-->
+    <div class="modal-wrapper modal-2">
+      <div class="modal-box">
+        <div class="product-img">
+          <div class="main-img">
+            <img src="./img/main/modal/main.png" alt="img" />
+          </div>
+          <div class="other-imgs">
+            <div class="pr-other__img">
+              <img src="./img/main/modal/1.png" alt="img" />
+            </div>
+            <div class="pr-other__img">
+              <img src="./img/main/modal/2.png" alt="img" />
+            </div>
+            <div class="pr-other__img">
+              <img src="./img/main/modal/3.png" alt="img" />
+            </div>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="info-top">
+            <h2 class="product-title">VIKO SOK</h2>
+            <div class="del-info">
+              <div class="info">
+                <img src="./img/icons/time.svg" />
+                <span>15 daq</span>
+              </div>
+              <div class="info">
+                <img src="./img/icons/distance.svg" />
+                <span>1.2 km</span>
+              </div>
+            </div>
+          </div>
+          <p class="text">
+            Germaniya davlati bilan hamkorlikda tayyorlanadigan “Viko” sok
+            mahsulotlari siz uchun tayyor. Sok tarkibida O’zbekistonda
+            yetishtirilgan ajoyib mevalar o’rin olgan. Bizning supermarketimizda
+            ushbu mahsulotni arzon narxlarda sotib olishingiz mumkin
+          </p>
+          <div class="current-price">
+            <span class="count">11 900</span>
+            <span class="money">so'm</span>
+            /
+            <span class="price-type">kg</span>
+          </div>
+          <div class="old-price">
+            <span class="count">13 900</span>
+            <span class="money">so'm</span>
+            /
+            <span class="price-type">kg</span>
+          </div>
+          <div class="modal-btns">
+            <button class="buy-btn">Sotib olish</button>
+            <div class="counter">
+              <button class="minus">-</button>
+              <span class="product-number">1</span>
+              <button class="plus">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product Modal End-->
+
+    <script src="./js/swiper.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
